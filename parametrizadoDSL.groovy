@@ -20,22 +20,6 @@ job('Job-DSL-github') {
     	}
   	publishers {
       		mailer('horazulu17@gmail.com', true, true)
-      		SlackNotifier {
-		  notifyAborted(true)
-		  notifyEveryFailure(true)
-		  notifyNotBuilt(false)
-		  notifyUnstable(false)
-		  notifyBackToNormal(true)
-		  notifySuccess(false)
-		  notifyRepeatedFailure(false)
-		  startNotification(false)
-		  includeTestSummary(false)
-		  includeCustomMessage(false)
-		  customMessage(null)
-		  sendAs(null)
-		  commitInfoChoice('NONE')
-		  teamDomain(null)
-		  authToken(null)
         	}
 	
     	}
