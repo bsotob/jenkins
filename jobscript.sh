@@ -7,6 +7,7 @@ then
 else
 	echo "Disfruta el planeta humano/a $nombre, trata de no morir."
 	echo "fuerzo el push"
+	echo "fuerzo el push 2"
 fi
 echo "..."
 sleep 10
