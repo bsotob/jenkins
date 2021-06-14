@@ -22,5 +22,4 @@ job('Job-DSL-github') {
       		mailer('horazulu17@gmail.com', true, true)
         	}
 	
-    	}
 }
