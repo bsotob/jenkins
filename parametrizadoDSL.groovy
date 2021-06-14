@@ -1,4 +1,4 @@
-job('ejemplo2-job-DSL') {
+job('Job-DSL-webhook-desde-github') {
 	description('Job DSL de ejemplo para el curso de Jenkins')
   	scm {
       		git('https://github.com/bsotob/jenkins.git', 'main') { node ->
